@@ -1,0 +1,142 @@
+.NavbarHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  align-items: center;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.NavbarItem ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.NavbarItem ul li {
+  list-style: none;
+}
+.NavbarItem ul li a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #211f54;
+}
+
+.NavbarItem ul li img {
+  padding: 0;
+  display: block;
+}
+
+.StartedNavbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.StartedNavbar span {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #211f54;
+}
+.StartedNavbar a {
+  text-decoration: none;
+  background: #0075ff;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* * Header Wrapper  style*/
+.HeaderWrapper {
+  display: flex;
+  align-items: center;
+  padding: 40px 100px;
+}
+
+.HeaderWrapperInfo h2 {
+  font-family: Roboto;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  color: #211f54;
+}
+.HeaderWrapperInfo p {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin: 30px 0;
+}
+
+.WrapperBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.WrapperBtn button {
+  text-decoration: none;
+  background: #0075ff;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+.BtnInfo {
+  display: flex;
+  align-items: center;
+}
+.BtnInfo p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1.600000023841858px;
+  text-align: left;
+  margin: 0;
+}
+
+.BtnInfo a {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
